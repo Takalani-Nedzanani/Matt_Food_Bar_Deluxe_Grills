@@ -1,0 +1,18 @@
+.column {
+    float: center;
+   
+    padding: 5px;
+
+  }
+  
+  
+  .row::after {
+    content: "";
+    clear: both;
+    display: table;
+  }
+  .row {
+    display:inline-flex;
+  }
+  
+  

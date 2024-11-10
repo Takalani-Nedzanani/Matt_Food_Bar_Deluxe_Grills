@@ -1,0 +1,40 @@
+/* Menu.css */
+
+.menu {
+    text-align: center;
+    padding: 20px;
+  }
+  
+  .menu-items {
+    display: flex;
+    justify-content: center;
+    gap: 20px;
+    flex-wrap: wrap;
+  }
+  
+  .menu-item {
+    width: 200px;
+    padding: 10px;
+    border: 1px solid #ddd;
+    border-radius: 8px;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+    text-align: center;
+  }
+  
+  .menu-item img {
+    width: 100%;           /* Make image responsive to menu item width */
+    height: 150px;         /* Set a fixed height */
+    object-fit: cover;     /* Ensures images are cropped to fit while maintaining aspect ratio */
+    border-radius: 8px;
+  }
+  
+  .menu-item h3 {
+    font-size: 1.2em;
+    margin: 10px 0 5px;
+  }
+  
+  .menu-item p {
+    color: #888;
+  }
+  
+  
